@@ -18,7 +18,7 @@ For a complete understanding of how these tools transform community coordination
 - Enjoyable social experiences
 - Knowledge sharing and collective learning
 
-## Core Implementations
+# Core Implementations
 
 Our software spans three main implementations, each bringing unique capabilities while remaining composable. From lightweight consensus tools to sophisticated governance frameworks, these systems work together to enable better collective decision-making.
 
@@ -26,27 +26,34 @@ While originally developed across multiple repositories, this consolidation prov
 
 Below you'll find an overview of each implementation, including links to all relevant repository versions. We've also curated articles with video demonstrations and detailed documentation to help understand how each implementation works.
 
-### 1. ORDAO/Fractalgram Implementation
+## 1. ORDAO/Fractalgram Implementation
 
 **EVM Infrastructure:** ORDAO provides advanced governance infrastructure built around the Optimistic Respect-based Executive Contract (OREC), enabling truly decentralized on-chain execution of community decisions through an innovative consent-based voting system. Under consistent active development for over 8 months, this implementation was [approved](https://snapshot.org/#/optimismfractal.eth/proposal/0x3c35f474b1e2c037f32455abd75d027aa29d402200ac649fecb8b46c789c26a3) by the Optimism Fractal [Council](http://optimismfractal.com/council) to become the new version of Optimism Fractal smart contracts and is in the process of being integrated with the Fractalgram web app.
 
-- EVM Repositories (work split across both as developer transitions to new structure):
-    - Optimystics Organization: [ORDAO Repository](https://github.com/Optimystics/ordao) | [Original frapps repository](https://github.com/Optimystics/frapps)
-    - Original Development: [ORDAO (dev repo)](https://github.com/sim31/ordao) | [frapps (dev repo)](https://github.com/sim31/frapps)
-- Learn more: [ORDAO article](https://optimystics.io/ordao) | [OREC article](https://optimystics.io/orec)
+**Repositories (work split across both as developer transitions to new structure):**
+- Optimystics Organization: [ORDAO Repository](https://github.com/Optimystics/ordao) | [Original frapps repository](https://github.com/Optimystics/frapps)
+- Original Development: [ORDAO (dev repo)](https://github.com/sim31/ordao) | [frapps (dev repo)](https://github.com/sim31/frapps)
+      
 
 **Front-End:** The Fractalgram web app provides a seamless interface for live community events, enabling real-time consensus building, engaging gameplay, and onchain submission. This modern implementation enhances the user experience with an intuitive interface while maintaining deep integration with the ORDAO smart contracts.
 
+**Repositories**
 - Optimystics Organization: [Fractalgram-Web](https://github.com/Optimystics/fractalgram-v2-respect-game-front-end)
 - Original Development: [Fractalgram-Web (dev repo)](https://github.com/fatherabraham-hms/fractalgram)
-- Try the app at: [respect-game.vercel.app](http://respect-game.vercel.apphttps://respect-game.vercel.app/login)
-- Learn more: [Fractalgram article](https://optimystics.io/fractalgram)
 
-### 2. Respect.Games App
+**Learn more**
+- [ORDAO article](https://optimystics.io/ordao)
+- [OREC article](https://optimystics.io/orec)
+- [Fractalgram article](https://optimystics.io/fractalgram)
+- Try the Fractalgram app at: [respect-game.vercel.app](http://respect-game.vercel.apphttps://respect-game.vercel.app/login)
 
-A full-featured application enabling asynchronous gameplay, on-chain contribution tracking, and flexible reward distribution. The [Respect.Games](http://Respect.Games) platform provides an all-in-one solution for launching and managing Respect Games, complete with user profiles and integrated onchain proposal voting. 
+---
 
-This implementation focuses on making the Respect Game accessible to a broader range of communities with different needs. Enhanced by Graph Protocol integration for efficient data querying, it offers a comprehensive interface for asynchronous community coordination. Developed over 2-3 months of full-time work and completed in September 2024, tCurrently in testing phase with multiple communities. 
+## 2. Respect.Games App
+
+A full-featured application enabling asynchronous gameplay, on-chain contribution tracking, and flexible reward distribution. The [Respect.Games](http://Respect.Games) platform provides an all-in-one solution for launching and managing Respect Games, complete with user profiles, automated Respect distribution, and integrated onchain proposal voting. 
+
+This implementation focuses on making the Respect Game accessible to a broader range of communities with different needs. Enhanced by Graph Protocol integration for efficient data querying of onchain data, it offers a comprehensive interface for asynchronous community coordination. Developed over 2-3 months of full-time work and completed in September 2024, the app is now currently in testing phase with multiple communities. 
 
 **EVM Infrastructure:**
 
@@ -55,12 +62,19 @@ This implementation focuses on making the Respect Game accessible to a broader r
 
 **Front-End:**  
 
-- Optimystics Organization: [Respect.Games-Frontend](https://github.com/Optimystics/respect.games-ui) | [Respect.Games-Frontend (dev repo)](https://github.com/lennarlehestik/respectgameui)
-- Graph Integration: [Respect.Games-graph](https://github.com/Optimystics/respect.games-graph) | [Respect.Games-graph (dev repo)](https://github.com/lennarlehestik/respectgamegraph)
+- Optimystics Organization: [Respect.Games-Frontend](https://github.com/Optimystics/respect.games-ui)
+- Original Development: [Respect.Games-Frontend (dev repo)](https://github.com/lennarlehestik/respectgameui)
+
+**The Graph:**
+
+- Graph Integration: [Respect.Games-graph](https://github.com/Optimystics/respect.games-graph)
+- Original Development: [Respect.Games-graph (dev repo)](https://github.com/lennarlehestik/respectgamegraph)
 
 - Try the app at [Respect.Games](http://Respect.Games) and explore more in the [Respect.Games article](https://optimystics.io/respect-games-app).
 
-### 3. Original Optimism Fractal Software
+---
+
+## 3. Original Optimism Fractal Software
 
 Our first generation software provides basic infrastructure for playing the Respect Game on OP Mainnet, enabling consensus submission and Respect token distribution according to the Fibonacci ratio during all weekly Optimism Fractal events. Initially deployed in October 2023, it was in continuous use for over a year with recent commits adding functionality. 
 
@@ -69,6 +83,8 @@ The original implementation uses a Fractalgram Telegram client for coordinating 
 - [EVM Infrastructure Repo](https://github.com/Optimystics/op-fractal-sc)
 - Frontend Repositories: [Fractalgram-Telegram-Client](https://github.com/Optimystics/fractalgram) | [OPF-Web-Interface](https://github.com/Optimystics/op-fractal-frontend)
 - Learn more: [Documentation & Demo](https://optimystics.io/first-generation-opf-software)
+
+---
 
 ## Additional Infrastructure
 
@@ -83,8 +99,8 @@ All code is open-source under MIT/GPL-3.0 licenses. All our tools and documentat
 - Explore the [Optimystics Toolkit](http://optimystics.io/tools) to learn more about all of our tools
 - Join our [weekly events](http://lu.ma/optimystics) to meet developers and experience these tools firsthand
 - Explore the [Development Hub](https://optimystics.io/optimism-fractal-development-hub) to find ongoing projects where you can contribute
+- Learn more about each of these apps and others in development in our article about [Fractal Apps](https://optimystics.io/fractal-app)
 - Connect through our [communication channels](https://optimystics.io/contact) and feel free to ask questions
 - Watch implementation videos in our [video library](https://optimystics.io/contact) to see the tools in action
-- Learn more about each of these apps and others in development in our article about [Fractal Apps](https://optimystics.io/fractal-app)
 
 While organized by implementation above, these components are designed for modularity and composability. We welcome contributions and adaptations that help communities thrive through better coordination.
