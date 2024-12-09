@@ -1,6 +1,9 @@
 # FRAPPS: Fractal Apps
 
-Frapps is a modular, open-source toolkit for building and implementing fractal apps on Ethereum (or other EVM-based blockchain networks).
+
+![fractal app 2](https://github.com/user-attachments/assets/74865a69-e3b1-4905-9cab-2120d7c17ff6)
+
+### Frapps is a modular, open-source toolkit for building and implementing fractal apps on Ethereum (or other EVM-based blockchain networks).
 
 Fractal apps enable communities to make collective decisions through [fractal democracy](https://optimystics.io/fractal-democracy) - an innovative framework that scales human coordination while fostering genuine engagement. At its foundation lies the [Respect Game](https://optimystics.io/respectgame), where participants earn reputation (called [Respect](https://optimystics.io/respect)) through peer evaluation of their contributions. This reputation then enables sophisticated governance processes, from council formation to resource allocation.
 
@@ -82,5 +85,6 @@ All code is open-source under MIT/GPL-3.0 licenses. All our tools and documentat
 - Explore the [Development Hub](https://optimystics.io/optimism-fractal-development-hub) to find ongoing projects where you can contribute
 - Connect through our [communication channels](https://optimystics.io/contact) and feel free to ask questions
 - Watch implementation videos in our [video library](https://optimystics.io/contact) to see the tools in action
+- Learn more about each of these apps and others in development in our article about [Fractal Apps](https://optimystics.io/fractal-app)
 
 While organized by implementation above, these components are designed for modularity and composability. We welcome contributions and adaptations that help communities thrive through better coordination.
