@@ -3,9 +3,9 @@
 
 ![fractal app 2](https://github.com/user-attachments/assets/74865a69-e3b1-4905-9cab-2120d7c17ff6)
 
-### Frapps is a modular, open-source toolkit for building and implementing fractal apps on Ethereum (or other EVM-based blockchain networks).
+### Frapps is a modular toolkit for building and implementing fractal apps on Ethereum (or other EVM-based blockchain networks).
 
-Fractal apps enable communities to make collective decisions through [fractal democracy](https://optimystics.io/fractal-democracy) - an innovative framework that scales human coordination while fostering genuine engagement. At its foundation lies the [Respect Game](https://optimystics.io/respectgame), where participants earn reputation (called [Respect](https://optimystics.io/respect)) through peer evaluation of their contributions. This reputation then enables sophisticated governance processes, from council formation to resource allocation.
+Fractal apps enable communities to make collective decisions through [fractal democracy](https://optimystics.io/fractal-democracy) - an innovative framework that scales human coordination while fostering genuine engagement. At its foundation lies the [Respect Game](https://optimystics.io/respectgame), where participants earn reputation (called [Respect](https://optimystics.io/respect)) through peer evaluation of their contributions. This reputation then enables sophisticated governance processes, from council formation to resource allocation. 
 
 For a complete understanding of how these tools transform community coordination, we encourage you to explore the [Optimystics Toolkit](http://optimystics.io/tools). There you'll find in-depth documentation of how frapps enables:
 
@@ -36,10 +36,6 @@ Below you'll find an overview of each implementation, including links to all rel
       
 
 **Front-End:** The Fractalgram web app provides a seamless interface for live community events, enabling real-time consensus building, engaging gameplay, and onchain submission. This modern implementation enhances the user experience with an intuitive interface while maintaining deep integration with the ORDAO smart contracts.
-
-**Repositories**
-- Optimystics Organization: [Fractalgram-Web](https://github.com/Optimystics/fractalgram-v2-respect-game-front-end)
-- Original Development: [Fractalgram-Web (dev repo)](https://github.com/fatherabraham-hms/fractalgram)
 
 **Learn more**
 - [ORDAO article](https://optimystics.io/ordao)
@@ -94,7 +90,7 @@ While this repository focuses on our EVM implementations, we've also developed c
 
 ## Get Involved
 
-All code is open-source under MIT/GPL-3.0 licenses. All our tools and documentation are under community-driven development. Here are some ways to get involved:
+All code listed here (except for second version of the Fractalgram app) is open-source under MIT/GPL-3.0 licenses. All our tools and documentation are under community-driven development. Here are some ways to get involved:
 
 - Explore the [Optimystics Toolkit](http://optimystics.io/tools) to learn more about all of our tools
 - Join our [weekly events](http://lu.ma/optimystics) to meet developers and experience these tools firsthand
